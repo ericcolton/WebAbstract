@@ -24,24 +24,11 @@ Pod::Spec.new do |s|
 
   s.dependency "hpple", "~> 0.2"
 
-
-
   s.source_files = 'WebAbstract/*{.h,.m}'
 
-
-
-  # s.resources = 'Assets/*.png'
-
   s.library = 'xml2'
-#  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' };
-
-  # s.ios.exclude_files = 'Classes/osx'
-  # s.osx.exclude_files = 'Classes/ios'
 
   s.public_header_files = 'WebAbstract/*.h'
-
-  # s.frameworks = 'SomeFramework', 'AnotherFramework'
-  # s.dependency 'JSONKit', '~> 1.4'
 
   def s.copy_header_mapping(from)
     from.relative_path_from(Pathname.new('Code'))
