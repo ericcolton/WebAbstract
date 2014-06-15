@@ -1,0 +1,5 @@
+
+<html><head><title>Test CGI page</title></head><body>
+
+<ul id="date"><li>date is Thursday May 2 2013 AD</li></ul>
+</body></html>
