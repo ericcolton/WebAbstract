@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/ericcolton/WebAbstract"
   s.license          = 'MIT'
   s.author           = { "Eric Colton" => "ericcolton@gmail.com" }
-  s.source           = { :git => "https://github.com/ericcolton/WebAbstract.git", "0.9.0" }
+  s.source           = { :git => "https://github.com/ericcolton/WebAbstract.git", :tag => "0.9.0" }
   s.platform     = :ios
   s.ios.deployment_target = "6.0"
   s.requires_arc = true
