@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0460"
+   LastUpgradeVersion = "0510"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E7922B9916E2871D00D779B3"
-               BuildableName = "WebAbstractDemo.app"
-               BlueprintName = "WebAbstractDemo"
-               ReferencedContainer = "container:WebAbstractDemo.xcodeproj">
+               BlueprintIdentifier = "CED717BE194E801100B17521"
+               BuildableName = "xxxx.app"
+               BlueprintName = "xxxx"
+               ReferencedContainer = "container:xxxx.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,24 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CED717D9194E801100B17521"
+               BuildableName = "xxxxTests.xctest"
+               BlueprintName = "xxxxTests"
+               ReferencedContainer = "container:xxxx.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E7922B9916E2871D00D779B3"
-            BuildableName = "WebAbstractDemo.app"
-            BlueprintName = "WebAbstractDemo"
-            ReferencedContainer = "container:WebAbstractDemo.xcodeproj">
+            BlueprintIdentifier = "CED717BE194E801100B17521"
+            BuildableName = "xxxx.app"
+            BlueprintName = "xxxx"
+            ReferencedContainer = "container:xxxx.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E7922B9916E2871D00D779B3"
-            BuildableName = "WebAbstractDemo.app"
-            BlueprintName = "WebAbstractDemo"
-            ReferencedContainer = "container:WebAbstractDemo.xcodeproj">
+            BlueprintIdentifier = "CED717BE194E801100B17521"
+            BuildableName = "xxxx.app"
+            BlueprintName = "xxxx"
+            ReferencedContainer = "container:xxxx.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E7922B9916E2871D00D779B3"
-            BuildableName = "WebAbstractDemo.app"
-            BlueprintName = "WebAbstractDemo"
-            ReferencedContainer = "container:WebAbstractDemo.xcodeproj">
+            BlueprintIdentifier = "CED717BE194E801100B17521"
+            BuildableName = "xxxx.app"
+            BlueprintName = "xxxx"
+            ReferencedContainer = "container:xxxx.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
