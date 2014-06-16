@@ -19,6 +19,12 @@
 		CED7182A194EA89300B17521 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED71812194EA89300B17521 /* UIKit.framework */; };
 		CED71832194EA89300B17521 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CED71830194EA89300B17521 /* InfoPlist.strings */; };
 		CED71834194EA89300B17521 /* WebAbstractDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED71833194EA89300B17521 /* WebAbstractDemoTests.m */; };
+		CED7183F194EA8FE00B17521 /* DataFetchLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CED7183E194EA8FE00B17521 /* DataFetchLayer.m */; };
+		CED71846194EA90900B17521 /* testcgi.txt in Resources */ = {isa = PBXBuildFile; fileRef = CED71840194EA90900B17521 /* testcgi.txt */; };
+		CED71847194EA90900B17521 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED71842194EA90900B17521 /* TestTableViewController.m */; };
+		CED71848194EA90900B17521 /* WebAbstractConfig_test_driver.plist in Resources */ = {isa = PBXBuildFile; fileRef = CED71843194EA90900B17521 /* WebAbstractConfig_test_driver.plist */; };
+		CED71849194EA90900B17521 /* webAbstractTest.txt in Resources */ = {isa = PBXBuildFile; fileRef = CED71844194EA90900B17521 /* webAbstractTest.txt */; };
+		CED7184A194EA90900B17521 /* workout.txt in Resources */ = {isa = PBXBuildFile; fileRef = CED71845194EA90900B17521 /* workout.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,14 @@
 		CED7182F194EA89300B17521 /* WebAbstractDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebAbstractDemoTests-Info.plist"; sourceTree = "<group>"; };
 		CED71831194EA89300B17521 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CED71833194EA89300B17521 /* WebAbstractDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebAbstractDemoTests.m; sourceTree = "<group>"; };
+		CED7183D194EA8FE00B17521 /* DataFetchLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFetchLayer.h; sourceTree = "<group>"; };
+		CED7183E194EA8FE00B17521 /* DataFetchLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataFetchLayer.m; sourceTree = "<group>"; };
+		CED71840194EA90900B17521 /* testcgi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testcgi.txt; sourceTree = "<group>"; };
+		CED71841194EA90900B17521 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		CED71842194EA90900B17521 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		CED71843194EA90900B17521 /* WebAbstractConfig_test_driver.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WebAbstractConfig_test_driver.plist; sourceTree = "<group>"; };
+		CED71844194EA90900B17521 /* webAbstractTest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = webAbstractTest.txt; sourceTree = "<group>"; };
+		CED71845194EA90900B17521 /* workout.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = workout.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +122,15 @@
 			isa = PBXGroup;
 			children = (
 				CED7181D194EA89300B17521 /* AppDelegate.h */,
+				CED7183D194EA8FE00B17521 /* DataFetchLayer.h */,
+				CED7183E194EA8FE00B17521 /* DataFetchLayer.m */,
 				CED7181E194EA89300B17521 /* AppDelegate.m */,
+				CED71841194EA90900B17521 /* TestTableViewController.h */,
+				CED71842194EA90900B17521 /* TestTableViewController.m */,
+				CED71843194EA90900B17521 /* WebAbstractConfig_test_driver.plist */,
+				CED71844194EA90900B17521 /* webAbstractTest.txt */,
+				CED71845194EA90900B17521 /* workout.txt */,
+				CED71840194EA90900B17521 /* testcgi.txt */,
 				CED71820194EA89300B17521 /* Images.xcassets */,
 				CED71815194EA89300B17521 /* Supporting Files */,
 			);
@@ -218,8 +240,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED7184A194EA90900B17521 /* workout.txt in Resources */,
 				CED71819194EA89300B17521 /* InfoPlist.strings in Resources */,
 				CED71821194EA89300B17521 /* Images.xcassets in Resources */,
+				CED71846194EA90900B17521 /* testcgi.txt in Resources */,
+				CED71848194EA90900B17521 /* WebAbstractConfig_test_driver.plist in Resources */,
+				CED71849194EA90900B17521 /* webAbstractTest.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED7183F194EA8FE00B17521 /* DataFetchLayer.m in Sources */,
 				CED7181F194EA89300B17521 /* AppDelegate.m in Sources */,
 				CED7181B194EA89300B17521 /* main.m in Sources */,
+				CED71847194EA90900B17521 /* TestTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
