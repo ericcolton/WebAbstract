@@ -16,21 +16,11 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Eric Colton" => "ericcolton@gmail.com" }
   s.source           = { :git => "https://github.com/ericcolton/WebAbstract.git", :tag => "0.1.0" }
-
   s.platform     = :ios
-
   s.ios.deployment_target = "6.0"
   s.requires_arc = true
-
   s.dependency "hpple", "~> 0.2"
-
   s.source_files = 'WebAbstract/*{.h,.m}'
-
   s.library = 'xml2'
-
   s.public_header_files = 'WebAbstract/*.h'
-
-  def s.copy_header_mapping(from)
-    from.relative_path_from(Pathname.new('Code'))
-  end
 end
