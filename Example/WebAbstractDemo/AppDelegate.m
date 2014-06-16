@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TestTableViewController.h"
 
 @implementation AppDelegate
 
@@ -15,6 +16,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    TestTableViewController *tvc = [TestTableViewController new];
+    [self.window setRootViewController:tvc];
     [self.window makeKeyAndVisible];
     return YES;
 }
