@@ -1,0 +1,74 @@
+
+
+<style>
+.RsvpGrid {width:100%; border-collapse:collapse; border-top: 1px solid black; border-bottom: 1px solid black;}
+.RsvpGrid > thead > tr > td {background-color:#999; border-bottom: solid 1px black; padding:5px; color:white; font-weight:bold}
+.RsvpGrid > tbody > tr > td {border-bottom: solid 1px #ccc; padding:5px; color:black; vertical-align:middle;}
+.RsvpGrid > tbody > tr:last-child > td {border-bottom:solid 1px black;}
+</style>
+<div class="outer">
+<h1 class="dialogTitle">View Session Details</h1>
+<div class="inner">
+<div class="panel" style="padding:10px;">
+<div style="width:90px; float:right; text-align:center; border:solid 1px black; color:black; background-color:white;">
+<div style="background-color:#9E3000; color:white; padding:5px;">Thursday</div>
+<div style="font-size:24pt; font-family:Helvetica, Arial, sans-serif;">25</div>
+<div style="padding:2px;">April</div>
+</div>
+<div style="line-height:150%;">
+<h2>Black Box WOD</h2>
+<div>Thursday, April 25, 2013</div>
+<div>
+6:45 AM
+- 7:45 AM
+(1 hour)
+</div>
+<br>
+<div><span class="bold">Staff:</span> Kyle Smith</div>
+<div><span class="bold">Location:</span> 25 W. 26th Street, 3rd Floor</div>
+</div>
+</div>
+<div class="panel" style="padding:10px; margin-top:-21px; border-top:none;">
+<div class="bold">Spaces Available: 17 out of 20</div>
+</div>
+<h3 style="padding-bottom: 5px;">Eligible Family Members</h3>
+<table class="RsvpGrid">
+<thead>
+<tr>
+<td>Person</td>
+<td>Status</td>
+<td>Action</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<img src="/zenplanner/skin/16/user_male.png" height="16" width="16" align="absmiddle">
+Eric Colton &nbsp;
+</td>
+<td>Not Reserved</td>
+<td>
+<a href="javascript:zen.showDialog('dialog-appointment-register.cfm?AppointmentId=1F0BB702-2085-45B4-AE20-58F0B2A8EAFF&personId=7C270F36-D107-4999-83E5-AE1371CDB6D9&MembershipId=B9A665C7-9DFD-49D0-8F6C-092C661BD4EF');">reserve spot</a>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<div style="line-height:150%">
+<h3>About Cancelations</h3>
+To cancel a reservation, you must do so no later than
+<span class="bold">
+1 hour
+</span>
+before the class.
+You can cancel this reservation any time until
+<span class="bold" style="white-space:nowrap">
+Apr 25, 2013
+at
+5:45 AM
+</span>
+</div>
+</div>
+</div>
+<hr/>
+<INPUT TYPE="button" VALUE="Close Window" ID="idQuit" LABEL="Close Window" />
