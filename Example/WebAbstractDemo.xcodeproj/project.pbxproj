@@ -7,18 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2E3C5A194FE6E500745F71 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2E3C59194FE6E500745F71 /* libxml2.dylib */; };
 		CED7180F194EA89300B17521 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED7180E194EA89300B17521 /* Foundation.framework */; };
 		CED71811194EA89300B17521 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED71810194EA89300B17521 /* CoreGraphics.framework */; };
 		CED71813194EA89300B17521 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED71812194EA89300B17521 /* UIKit.framework */; };
 		CED71819194EA89300B17521 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CED71817194EA89300B17521 /* InfoPlist.strings */; };
 		CED7181B194EA89300B17521 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CED7181A194EA89300B17521 /* main.m */; };
 		CED7181F194EA89300B17521 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CED7181E194EA89300B17521 /* AppDelegate.m */; };
-		CED71821194EA89300B17521 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED71820194EA89300B17521 /* Images.xcassets */; };
-		CED71828194EA89300B17521 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED71827194EA89300B17521 /* XCTest.framework */; };
-		CED71829194EA89300B17521 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED7180E194EA89300B17521 /* Foundation.framework */; };
-		CED7182A194EA89300B17521 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED71812194EA89300B17521 /* UIKit.framework */; };
-		CED71832194EA89300B17521 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CED71830194EA89300B17521 /* InfoPlist.strings */; };
-		CED71834194EA89300B17521 /* WebAbstractDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED71833194EA89300B17521 /* WebAbstractDemoTests.m */; };
 		CED7183F194EA8FE00B17521 /* DataFetchLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CED7183E194EA8FE00B17521 /* DataFetchLayer.m */; };
 		CED71846194EA90900B17521 /* testcgi.txt in Resources */ = {isa = PBXBuildFile; fileRef = CED71840194EA90900B17521 /* testcgi.txt */; };
 		CED71847194EA90900B17521 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED71842194EA90900B17521 /* TestTableViewController.m */; };
@@ -27,17 +22,8 @@
 		CED7184A194EA90900B17521 /* workout.txt in Resources */ = {isa = PBXBuildFile; fileRef = CED71845194EA90900B17521 /* workout.txt */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CED7182B194EA89300B17521 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CED71803194EA89300B17521 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CED7180A194EA89300B17521;
-			remoteInfo = WebAbstractDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		CE2E3C59194FE6E500745F71 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		CED7180B194EA89300B17521 /* WebAbstractDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebAbstractDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED7180E194EA89300B17521 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CED71810194EA89300B17521 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,12 +34,7 @@
 		CED7181C194EA89300B17521 /* WebAbstractDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebAbstractDemo-Prefix.pch"; sourceTree = "<group>"; };
 		CED7181D194EA89300B17521 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CED7181E194EA89300B17521 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CED71820194EA89300B17521 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CED71826194EA89300B17521 /* WebAbstractDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebAbstractDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED71827194EA89300B17521 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		CED7182F194EA89300B17521 /* WebAbstractDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebAbstractDemoTests-Info.plist"; sourceTree = "<group>"; };
-		CED71831194EA89300B17521 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CED71833194EA89300B17521 /* WebAbstractDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebAbstractDemoTests.m; sourceTree = "<group>"; };
 		CED7183D194EA8FE00B17521 /* DataFetchLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFetchLayer.h; sourceTree = "<group>"; };
 		CED7183E194EA8FE00B17521 /* DataFetchLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataFetchLayer.m; sourceTree = "<group>"; };
 		CED71840194EA90900B17521 /* testcgi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testcgi.txt; sourceTree = "<group>"; };
@@ -69,19 +50,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2E3C5A194FE6E500745F71 /* libxml2.dylib in Frameworks */,
 				CED71811194EA89300B17521 /* CoreGraphics.framework in Frameworks */,
 				CED71813194EA89300B17521 /* UIKit.framework in Frameworks */,
 				CED7180F194EA89300B17521 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CED71823194EA89300B17521 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CED71828194EA89300B17521 /* XCTest.framework in Frameworks */,
-				CED7182A194EA89300B17521 /* UIKit.framework in Frameworks */,
-				CED71829194EA89300B17521 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				CED71814194EA89300B17521 /* WebAbstractDemo */,
-				CED7182D194EA89300B17521 /* WebAbstractDemoTests */,
 				CED7180D194EA89300B17521 /* Frameworks */,
 				CED7180C194EA89300B17521 /* Products */,
 			);
@@ -102,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				CED7180B194EA89300B17521 /* WebAbstractDemo.app */,
-				CED71826194EA89300B17521 /* WebAbstractDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +80,7 @@
 		CED7180D194EA89300B17521 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE2E3C59194FE6E500745F71 /* libxml2.dylib */,
 				CED7180E194EA89300B17521 /* Foundation.framework */,
 				CED71810194EA89300B17521 /* CoreGraphics.framework */,
 				CED71812194EA89300B17521 /* UIKit.framework */,
@@ -131,7 +102,6 @@
 				CED71844194EA90900B17521 /* webAbstractTest.txt */,
 				CED71845194EA90900B17521 /* workout.txt */,
 				CED71840194EA90900B17521 /* testcgi.txt */,
-				CED71820194EA89300B17521 /* Images.xcassets */,
 				CED71815194EA89300B17521 /* Supporting Files */,
 			);
 			path = WebAbstractDemo;
@@ -144,24 +114,6 @@
 				CED71817194EA89300B17521 /* InfoPlist.strings */,
 				CED7181A194EA89300B17521 /* main.m */,
 				CED7181C194EA89300B17521 /* WebAbstractDemo-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CED7182D194EA89300B17521 /* WebAbstractDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				CED71833194EA89300B17521 /* WebAbstractDemoTests.m */,
-				CED7182E194EA89300B17521 /* Supporting Files */,
-			);
-			path = WebAbstractDemoTests;
-			sourceTree = "<group>";
-		};
-		CED7182E194EA89300B17521 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CED7182F194EA89300B17521 /* WebAbstractDemoTests-Info.plist */,
-				CED71830194EA89300B17521 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -186,24 +138,6 @@
 			productReference = CED7180B194EA89300B17521 /* WebAbstractDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CED71825194EA89300B17521 /* WebAbstractDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CED7183A194EA89300B17521 /* Build configuration list for PBXNativeTarget "WebAbstractDemoTests" */;
-			buildPhases = (
-				CED71822194EA89300B17521 /* Sources */,
-				CED71823194EA89300B17521 /* Frameworks */,
-				CED71824194EA89300B17521 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CED7182C194EA89300B17521 /* PBXTargetDependency */,
-			);
-			name = WebAbstractDemoTests;
-			productName = WebAbstractDemoTests;
-			productReference = CED71826194EA89300B17521 /* WebAbstractDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,11 +145,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
-				TargetAttributes = {
-					CED71825194EA89300B17521 = {
-						TestTargetID = CED7180A194EA89300B17521;
-					};
-				};
 			};
 			buildConfigurationList = CED71806194EA89300B17521 /* Build configuration list for PBXProject "WebAbstractDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -230,7 +159,6 @@
 			projectRoot = "";
 			targets = (
 				CED7180A194EA89300B17521 /* WebAbstractDemo */,
-				CED71825194EA89300B17521 /* WebAbstractDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,18 +170,9 @@
 			files = (
 				CED7184A194EA90900B17521 /* workout.txt in Resources */,
 				CED71819194EA89300B17521 /* InfoPlist.strings in Resources */,
-				CED71821194EA89300B17521 /* Images.xcassets in Resources */,
 				CED71846194EA90900B17521 /* testcgi.txt in Resources */,
 				CED71848194EA90900B17521 /* WebAbstractConfig_test_driver.plist in Resources */,
 				CED71849194EA90900B17521 /* webAbstractTest.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CED71824194EA89300B17521 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CED71832194EA89300B17521 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,37 +190,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CED71822194EA89300B17521 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CED71834194EA89300B17521 /* WebAbstractDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CED7182C194EA89300B17521 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CED7180A194EA89300B17521 /* WebAbstractDemo */;
-			targetProxy = CED7182B194EA89300B17521 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CED71817194EA89300B17521 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CED71818194EA89300B17521 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CED71830194EA89300B17521 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CED71831194EA89300B17521 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -407,46 +302,6 @@
 			};
 			name = Release;
 		};
-		CED7183B194EA89300B17521 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebAbstractDemo.app/WebAbstractDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WebAbstractDemo/WebAbstractDemo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "WebAbstractDemoTests/WebAbstractDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		CED7183C194EA89300B17521 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebAbstractDemo.app/WebAbstractDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WebAbstractDemo/WebAbstractDemo-Prefix.pch";
-				INFOPLIST_FILE = "WebAbstractDemoTests/WebAbstractDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -464,15 +319,6 @@
 			buildConfigurations = (
 				CED71838194EA89300B17521 /* Debug */,
 				CED71839194EA89300B17521 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CED7183A194EA89300B17521 /* Build configuration list for PBXNativeTarget "WebAbstractDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CED7183B194EA89300B17521 /* Debug */,
-				CED7183C194EA89300B17521 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
