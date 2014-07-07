@@ -83,7 +83,10 @@ An 'output' describes how to parse an NSData (response) object into native data-
                   	    ];
 
 
-much much more goes here...
+And here is where Eric has a lot more documentation to add
+==========================================================
+
+tune back in...
 
 
 Author
